@@ -1,0 +1,154 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #56b3a9;
+  background-size: cover;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+  background-color: #56b3a9;
+  background-size: cover;
+}
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #56b3a9;
+}
+.logo {
+  max-width: 231px; 
+  margin-bottom: 5px;
+}
+
+.loginForm form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #e6502f;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.loginForm input[type="text"],
+.loginForm input[type="password"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.loginForm button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.loginForm button:hover {
+  background-color: #0056b3;
+}
+
+.logoutButton {
+  padding: 10px 20px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.logoutButton:hover {
+  background-color: #c82333;
+}
+.controls {
+  margin-bottom: 20px;
+}
+
+.controls select, .controls button {
+   margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #1e3058;
+  color: white;
+}
+
+.controls button {
+  background-color: #1e3058;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.controls button:hover {
+  background-color: #0056b3;
+}
+
+.fact {
+  margin: 20px auto;
+  padding: 20px;
+  color: white;
+  max-width: 490px;
+  background-color: #e6502f;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  
+}
+
+.savedFactsContainer {
+  padding: 20px;
+}
+
+.factBasket, .savedFacts {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #e6502f;
+  border-radius: 8px;
+}
+
+.factItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
+  background-color: #1e3058;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  color: white;
+}
+
+.factItem button {
+  margin-left: auto;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.factItem button:hover {
+  background-color: #c82333;
+}
+
+.savedFactsContainer h2{
+  color: #1e3058;
+  font-size: larger;
+}
+.loginForm input {
+  background-color: #1e3058;
+  color: white;
+  
+}
+.loginForm input::placeholder {
+  color: white; 
+}
